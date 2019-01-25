@@ -52,7 +52,7 @@ Either way, this api will return a JSON response.
 
 ## How it works
 Basically, it receives an order like the ones in your example, and returns another json with the discount (if it was applied), or an error if something isn't right.<br><br>
-There are 3 types of discounts:<br>
+There are 3 types of discounts:<br><br>
  **1: A customer who has already bought for over € 1000, gets a discount of 10% on the whole order.**<br>
  The class receives `$percentage` (defaults to `10`) and `$minumum_order` (defaults to `1000`) parameters.<br>
  The parameters can be changed. Ex: `PercentageBasedOnAmount($order, 20, 2000)` will apply a `20% discount` to an order of `2000 or more`.<br>
