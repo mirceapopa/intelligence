@@ -69,4 +69,4 @@ There are 3 types of discounts:<br><br>
  If you call `CheapestFromCategory($order, 4, 10)`, it will apply the same rule of disount, but for the `4th category`, with a discount of `10 percent`.<br>
  **NOTE:** The discount is applied on only one of the cheapest product.<br>
 For example if the user buys 1 product which costs €10, and 10 products that individually cost €5, the user will receive a discount of 20% (or what value it receives) from the cheapest (€5).
-
+<br><br>**Discounts are not cumulative.**
