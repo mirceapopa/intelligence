@@ -1,0 +1,6 @@
+2019-01-25 13-14-11 | /var/www/html/intelligence/src/Mpopa/DataSource/MySQL.php | line 22 | Could not connect to database: SQLSTATE[HY000] [1045] Access denied for user 'root3'@'localhost' (using password: NO)
+2019-01-25 13-14-18 | /var/www/html/intelligence/src/Mpopa/Order.php | line 73 | Invalid order array keys: []
+2019-01-25 13-14-19 | /var/www/html/intelligence/src/Mpopa/Helper.php | line 38 | missing_products.json not found.
+2019-01-25 13-14-20 | /var/www/html/intelligence/src/Mpopa/Helper.php | line 38 | missing_products.json not found.
+2019-01-25 13-14-20 | /var/www/html/intelligence/src/Mpopa/Helper.php | line 38 | missing_products.json not found.
+2019-01-25 13-14-21 | /var/www/html/intelligence/src/Mpopa/Helper.php | line 38 | missing_products.json not found.

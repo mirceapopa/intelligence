@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="phpunit.xsd"    
+    colors="true"
+    verbose="true"
+    stopOnFailure="false"
+    bootstrap="tests/boostrap.php"
+>
+    <testsuites>
+        <testsuite name="Api Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
