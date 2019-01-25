@@ -13,7 +13,9 @@ Change the MySQL config values with the `user/password/host/database` values tha
 - for unit testing <br>
 `{project_folder}/tests/boostrap.php`<br><br>
 
-Run the unit tests:
+See more info in `{project_folder}/config.php`<br>
+
+### Run the unit tests:
 `cd {project_folder}`<br>
 `./vendor/bin/phpunit`<br><br>
 It should output something like:<br>
