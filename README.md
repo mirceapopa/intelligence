@@ -31,16 +31,16 @@ OK (46 tests, 237 assertions)
 ## Running the example
 This example can be ran in 3 different ways:
 1. Via GET request, including the URL to the order.json file as the "order" parameter
-Example: 
+Example: <br>
 ```http://{project_url}/order=?php index.php "https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json"```
 
 2. Via command line, by giving the json file containing the order as a parameter
-Example (external file):
+Example **(external file)**:
 ```
 cd {project_folder}
 php index.php "php index.php "https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json"
 ```
-or (local file)
+or **(local file)**:
 ```cd {project_folder}
 php index.php assets/order.json
 ```
