@@ -4,12 +4,13 @@
 Clone this repository in you preferred folder, e.g. /var/www/html<br>
 `git clone https://github.com/mirceapopa/intelligence.git`<br><br>
 
-Import the database file from <br>
+Import the database dump to your mysql server. The dump can be found here:<br>
 `{project_folder}/assets/database/mpopa_intelligence.sql.gz`
 <br><br>
-Change the config values with the user/password/host/database values or change the sources for the JSON files if you want to test it using JSON files as datasources from<br>
+Change the MySQL config values with the user/password/host/database values that you use, or change the sources for the JSON files if you want to test it using JSON files as datasources in the following locations:<br>
+- for running<br>
 `{project_folder}/config.php`<br>
-and<br>
+- for unit testing <br>
 `{project_folder}/tests/boostrap.php`<br><br>
 
 Run the unit tests:
