@@ -54,14 +54,19 @@ Either way, this api will return a JSON response.
 Basically, it receives an order like the ones in your example, and returns another json with the discount (if it was applied), or an error if something isn't right.<br>
 There are 3 types of discounts:<br>
  **1: A customer who has already bought for over € 1000, gets a discount of 10% on the whole order.**<br>
- The class receives $percentage (defaults to 10) and $minumum_order (defaults to 1000) parameters.<br>
- The parameters can be changed. Ex: PercentageBasedOnAmount($order, 20, 2000) will apply a 20% discount to an order of 2000 or more.<br><br>
+ The class receives `$percentage` (defaults to `10`) and `$minumum_order` (defaults to `1000`) parameters.<br>
+ The parameters can be changed. Ex: `PercentageBasedOnAmount($order, 20, 2000)` will apply a `20% discount` to an order of `2000 or more`.<br>
  
  **2: For every product of category "Switches" (id 2), when you buy five, you get a sixth for free.**<br>
-  The class receives $category_id (defaults to 2) and $products_nr (defaults to 5) parameters.<br>
-  If you call CategoryAmount($order, 4, 10), it will apply the same rule of disount, but for the 4th category, and for a group of 10 items.<br>
-  It applies for every individual product type. For example if a customer orders 5xBasic on-off switch and 7xPress button, the discount will include 1x Basic on-off switch and also 1xPress button.<br>
+  The class receives `$category_id` (defaults to `2`) and `$products_nr` (defaults to `5`) parameters.<br>
+  If you call `CategoryAmount($order, 4, 10)`, it will apply the same rule of disount, but for the `4th category`, and for a group of `10 items`.<br>
+  It applies for every individual product type. For example if a customer orders `5xBasic on-off switch` and `7xPress button`, the discount will include `1x Basic on-off switch` and also `1xPress button`.<br>
   **NOTE:** If the customer orders for example 10 products from category 2, the customer will receive 2 more free (one for each 5 products group).<br>
    If the customer orders 7 products for example, it will receive only 1 free, because only one full group of 5 products was bought.<br>
 
+**3: If you buy two or more products of category "Tools" (id 1), you get a 20% discount on the cheapest product.**<br>
+ The class receives `$category_id` (defaults to `1`) and `$percentage` (defaults to `20`) parameters.<br>
+ If you call `CheapestFromCategory($order, 4, 10)`, it will apply the same rule of disount, but for the `4th category`, with a discount of `10 percent`.<br>
+ **NOTE:** The discount is applied on only one of the cheapest product.<br>
+For example if the user buys 1 product which costs €10, and 10 products that individually cost €5, the user will receive a discount of 20% (or what value it receives) from the cheapest (€5).
 
