@@ -2,11 +2,11 @@
 
 ## Installation
 Clone this repository in you preferred folder, e.g. /var/www/html<br>
-`git clone https://github.com/mirceapopa/intelligence.git`
+`git clone https://github.com/mirceapopa/intelligence.git`<br><br>
 
 Import the database file from <br>
 `{project_folder}/assets/database/mpopa_intelligence.sql.gz`
-<br>
+<br><br>
 Change the config values with the user/password/host/database values or change the sources for the JSON files if you want to test it using JSON files as datasources from<br>
 `{project_folder}/config.php`<br>
 and<br>
