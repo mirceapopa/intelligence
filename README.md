@@ -51,7 +51,7 @@ For this example you can use any app that sends `POST` reqests, like `Insomnia`.
 Either way, this api will return a JSON response.
 
 ## How it works
-Basically, it receives an order like the ones in your example, and returns another json with the discount (if it was applied), or an error if something isn't right.<br>
+Basically, it receives an order like the ones in your example, and returns another json with the discount (if it was applied), or an error if something isn't right.<br><br>
 There are 3 types of discounts:<br>
  **1: A customer who has already bought for over € 1000, gets a discount of 10% on the whole order.**<br>
  The class receives `$percentage` (defaults to `10`) and `$minumum_order` (defaults to `1000`) parameters.<br>
