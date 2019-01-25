@@ -38,7 +38,7 @@ Example: <br>
 Example **(external file)**:
 ```
 cd {project_folder}
-php index.php "php index.php "https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json"
+php index.php "https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json"
 ```
 or **(local file)**:
 ```cd {project_folder}
