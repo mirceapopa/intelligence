@@ -30,11 +30,11 @@ OK (46 tests, 237 assertions)
 ```
 ## Running the example
 This example can be ran in 3 different ways:
-1. Via `GET` request, by passing the URL of the order.json file as the `order` parameter<br>
+1. Via `GET` request, by passing the URL of the order.json file as the `order` parameter.<br>
 Example: <br>
 ```http://{project_url}/?order=https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json```
 
-2. Via command line, by passing the json local file path or url containing the order as a parameter
+2. Via command line, by passing the json local file path or URL containing the order json file as a parameter.<br>
 Example **(external file)**:
 ```
 cd {project_folder}
@@ -48,4 +48,4 @@ php index.php assets/order.json
 3. Via `POST` request, by sending the order json as a `Content-Type` set to `application/json`<br>
 For this example you can use any app that sends `POST` reqests, like `Insomnia`. Just make sure that you have the `Content-Type` set to `application/json`
 
-Either way, this api must return a JSON response.
+Either way, this api will return a JSON response.
