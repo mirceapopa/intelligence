@@ -35,11 +35,11 @@ Example: http://{project_url}/order=?>php index.php "https://raw.githubuserconte
 
 2. Via command line, by giving the json file containing the order as a parameter
 Example (external file):
-```cd {project_folder}
+```
+cd {project_folder}
 php index.php "php index.php "https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json"
 ```
 or (local file)
-```
 ```cd {project_folder}
 php index.php assets/order.json
 ```
