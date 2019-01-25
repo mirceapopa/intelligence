@@ -16,7 +16,7 @@ Run the unit tests:
 `cd {project_folder}`<br>
 `./vendor/bin/phpunit`<br>
 It should output something like:<br>
-`PHPUnit 7.5.2 by Sebastian Bergmann and contributors.
+```PHPUnit 7.5.2 by Sebastian Bergmann and contributors.
 
 Runtime:       PHP 7.2.10-0ubuntu0.18.04.1
 Configuration: /var/www/html/intelligence/phpunit.xml
@@ -26,4 +26,4 @@ Configuration: /var/www/html/intelligence/phpunit.xml
 Time: 13.74 seconds, Memory: 4.00MB
 
 OK (46 tests, 237 assertions)
-`
+```
