@@ -30,7 +30,7 @@ OK (46 tests, 237 assertions)
 ```
 ## Running the example
 This example can be ran in 3 different ways:
-1. Via `GET` request, by passing the URL of the order.json file as the `order` parameter
+1. Via `GET` request, by passing the URL of the order.json file as the `order` parameter<br>
 Example: <br>
 ```http://{project_url}/?order=https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json```
 
