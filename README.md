@@ -28,3 +28,21 @@ Time: 13.74 seconds, Memory: 4.00MB
 
 OK (46 tests, 237 assertions)
 ```
+## Running the example
+This example can be ran in 3 different ways:
+1. Via GET request, including the URL to the order.json file as the "order" parameter
+Example: http://{project_url}/order=?>php index.php "https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json"
+
+2. Via command line, by giving the json file containing the order as a parameter
+Example (external file):
+```cd {project_folder}
+php index.php "php index.php "https://raw.githubusercontent.com/teamleadercrm/coding-test/master/example-orders/order3.json"
+```
+or (local file)
+```
+```cd {project_folder}
+php index.php assets/order.json
+```
+
+3. Via POST request, by sending the order json as a "application/json" encoded "Content-Type"
+For this example you can use any app that sends POST reqests, like Insomnia. Just make sure that you have the "Content-Type" set to "application/json"
