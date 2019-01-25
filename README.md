@@ -71,4 +71,4 @@ There are 3 types of discounts:<br><br>
 For example if the user buys 1 product which costs €10, and 10 products that individually cost €5, the user will receive a discount of 20% (or what value it receives) from the cheapest (€5).
 <br><br>**Discounts are not cumulative.**<br><br>
 More discount types can be added by extending the `Discount` class and by registering them in the `DiscountFactory` class.<br>
-The order in which the discount are apllied is defined in the `DiscountFactory` class.
+The order in which the discounts are apllied is defined in the `DiscountFactory` class.
