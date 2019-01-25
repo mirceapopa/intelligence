@@ -6,15 +6,15 @@ Clone this repository in you preferred folder, e.g. /var/www/html<br>
 
 Import the database file from <br>
 `{project_folder}/assets/database/mpopa_intelligence.sql.gz`
-
+<br>
 Change the config values with the user/password/host/database values or change the sources for the JSON files if you want to test it using JSON files as datasources from<br>
 `{project_folder}/config.php`<br>
 and<br>
-`{project_folder}/tests/boostrap.php`<br>
+`{project_folder}/tests/boostrap.php`<br><br>
 
 Run the unit tests:
 `cd {project_folder}`<br>
-`./vendor/bin/phpunit`<br>
+`./vendor/bin/phpunit`<br><br>
 It should output something like:<br>
 ```PHPUnit 7.5.2 by Sebastian Bergmann and contributors.
 
